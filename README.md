@@ -31,14 +31,15 @@ $ npm install --save update-ts-ci
 ```
 
 ```typescript
-import { myFunction, myObject } from "update-ts-ci";
+import { myFunction, myObject, MyReactComponent } from "update-ts-ci";
 ```
 
-Specific imports:
+Specific imports, only import what you need:
 
 ```typescript
 import { myFunction } from "update-ts-ci/myFunction";
 import { myObject } from "update-ts-ci/myObject";
+import MyReactComponent from "update-ts-ci/MyReactComponent";
 ```
 
 # Contributing
